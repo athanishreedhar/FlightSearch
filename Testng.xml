@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="FlightSearch">
+
+	<listeners>
+		<listener class-name="com.FlightSearch.utilities.Reporting" />
+	</listeners>
+
+
+	<test name="FlightSearchApp Test">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.inetbanking.testCases.TC_SearchFlight_003" />
+		</classes>
+
+	</test>
+
+</suite>
